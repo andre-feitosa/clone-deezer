@@ -1,0 +1,41 @@
+.imgDeezer{
+    height: 50px;
+    width: 130px;
+
+    top: 1em;
+    left: 2em;
+
+    position: absolute;
+}
+
+.options ul {
+    color: white;
+
+    position: absolute;
+    top: 5em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    list-style-type: none;
+}
+
+
+.imgIcon {
+    
+    width: 20px;
+    height: 20px;
+
+    padding-right: 10px;
+}
+
+.options div{
+    background: white;
+
+    margin-left: 210px;
+
+    height: 41em;
+    width: 1px;
+}

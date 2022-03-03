@@ -1,0 +1,65 @@
+.gradient {
+    background: linear-gradient(126.05deg,rgba(241,42,42,0.2497373949579832) 25.95%,rgba(191,28,235,0.27) 40%,rgba(6,173,87,0.25) 66%,rgb(6 173 87/ 0.25) 76.7%);
+    height: 350px;
+    width: 1335px;
+    filter: blur(100px);
+    border-radius: 100%;
+}
+ 
+.img1 {
+    height: 50px;
+    width: 130px;
+    
+    margin-top: 27px;
+    margin-left: 44%;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.img2 {
+    height: 80px;
+    width: 200px;
+    
+    margin-top: 15%;
+    margin-left: 40%;
+    justify-content: center;
+    position: absolute;
+}
+
+.img3 {
+    height: 70px;
+    width: 160px;
+
+    margin-left: 36%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.img4 {
+    height: 50px;
+    width: 150px;
+    
+    margin-left: 48%;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.title > p{
+    color: white;
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    margin-left: 27%;
+    position: absolute;
+    top: 20%;
+
+    z-index: 1;
+}
+
+.footer {
+    border-top: 1px solid rgb(43, 42, 42);
+    margin-top: 30%;
+}
