@@ -1,23 +1,23 @@
-import React, { Component, useState } from 'react'
-
 import style from '../../styles/styleComponents/homeOptions.module.css'
 import deezerClone from '../../public/deezer-clone.jpg'
-import iconMusicCoral  from '../../public/icon-music-coral.jpg'
-import iconMusicBranco from '../../public/icon-music-branco.jpg'
 
-//const [image, imageOver] = useState(iconMusicCoral.src)
-//onMouseOver={()=>imageOver(iconMusicBranco.src)} onMouseOut={()=>imageOver(iconMusicCoral.src)}
+import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
 
 function Options(){
     return(
         <>
             <div className={style.options}>
-                <img src={deezerClone.src} className={style.imgDeezer} alt="Dezzer clone" />
+                <img src={deezerClone.src} className={style.imgDeezer} onClick={()=>{open('http://localhost:3000/home', '_self')}} alt="Dezzer clone" />
                     <ul>
-                        <li style={{color: '#ef5466'}}>
-                            <img src={iconMusicCoral.src} className={style.imgIcon}  alt="" />
-                            Música
-                        </li>     
+                        <li onClick={()=>{open('http://localhost:3000/home', '_self')}} style={{padding: '0 0 20px 0'}}>
+                            <MusicNoteIcon />
+                            Músicas
+                        </li>   
+                        <li onClick={()=>{open('http://localhost:3000/genres', "_self")}}>
+                            <PlaylistPlayIcon />
+                            Gêneros
+                        </li>  
                     </ul>
                      
                 <div></div>

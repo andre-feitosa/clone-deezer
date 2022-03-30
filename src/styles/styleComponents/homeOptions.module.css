@@ -1,9 +1,17 @@
+.options{
+    position: fixed;
+    
+    z-index: 99;
+    background-color: black;
+    left: 0;
+}
+
 .imgDeezer{
     height: 50px;
     width: 130px;
-
-    top: 1em;
+    
     left: 2em;
+    cursor: pointer;
 
     position: absolute;
 }
@@ -20,6 +28,11 @@
     letter-spacing: 2px;
 
     list-style-type: none;
+    cursor: pointer;
+}
+
+.options li:hover {
+    color: rgb(189, 8, 8)
 }
 
 

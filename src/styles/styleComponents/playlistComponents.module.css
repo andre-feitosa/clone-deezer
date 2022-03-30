@@ -1,0 +1,79 @@
+.Playlist {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-top: 30em;
+    margin-left: 14.8em;
+
+    position: absolute;
+    height: 500px;
+}
+
+.linetest {
+    overflow-x: hidden;
+
+    transition: 0.5s;
+}
+
+.listPlaylist {
+    display: inline-block;
+
+    padding: 20px 90px 0 0;
+
+    justify-items: center;
+}
+
+.listPlaylist img {
+    border-radius: 5px;
+}
+
+.listPlaylist img:hover {
+    filter: grayscale(50%);
+
+    cursor: pointer;
+}
+
+.listPlaylist a {
+    width: 16em;
+    text-decoration: none;
+
+    position: absolute;
+}
+
+.listPlaylist i {
+    font-size: 12px;
+
+    position: absolute;
+    margin-top: 50px;
+
+    color: #666666;
+}
+
+.playlistLine {
+    overflow-x: hidden;
+
+    width: 9999px;
+}
+
+.movieRowRight {
+    margin-left: 26em;
+}
+
+.movieRowLeft {
+    margin-left: 24em;
+}
+
+.movieRowLeft, .movieRowRight {
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    
+    text-align: center;
+    border-radius: 30px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: -30px;
+
+    color: white;
+}

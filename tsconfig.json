@@ -71,7 +71,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/teste.tsx", "src/pages/home.jsx", "src/pages/album.jsx", "server/router.ts", "src/pages/[album]/[albuns].jsx", "src/pages/genres.jsx"  ],
   "exclude": [
     "node_modules"
   ]

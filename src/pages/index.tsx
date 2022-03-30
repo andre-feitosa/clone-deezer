@@ -1,15 +1,14 @@
 import type { NextPage } from 'next'
+import React from 'react'
 
 import styles from '../styles/index.module.css'
 import deezerImg from '../public/deezer-clone.jpg' 
-
 import RegisterComp from './components/indexRegisterComponent'
-import React from 'react'
 
 const Home: NextPage = () => {
   return (
     <div className={styles.title}>
-      <img className={styles.img1} onClick={()=>open("http://localhost:3000", "_self")} src={deezerImg.src} alt="Logo Deezer"/>
+      <img className={styles.img1} onClick={()=>open("http://localhost:3000/")} src={deezerImg.src} alt="Logo Deezer"/>
       <p>
         <strong>
           Aproveite a <br/> 
